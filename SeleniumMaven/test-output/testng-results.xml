@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-30T17:39:41 IST" name="Default suite" finished-at="2023-11-30T17:39:58 IST" duration-ms="17401">
+    <groups>
+    </groups>
+    <test started-at="2023-11-30T17:39:41 IST" name="Default test" finished-at="2023-11-30T17:39:58 IST" duration-ms="17401">
+      <class name="Basic.Login">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Basic.Login@52b1beb6]" started-at="2023-11-30T17:39:41 IST" name="openBrowser" finished-at="2023-11-30T17:39:47 IST" duration-ms="6114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Basic.Login@52b1beb6]" started-at="2023-11-30T17:39:47 IST" name="login" data-provider="loginData" finished-at="2023-11-30T17:39:52 IST" duration-ms="4222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Basic.Login@52b1beb6]" started-at="2023-11-30T17:39:52 IST" name="login" data-provider="loginData" finished-at="2023-11-30T17:39:55 IST" duration-ms="3032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Basic.Login@52b1beb6]" started-at="2023-11-30T17:39:55 IST" name="login" data-provider="loginData" finished-at="2023-11-30T17:39:58 IST" duration-ms="2890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Basic.Login@52b1beb6]" started-at="2023-11-30T17:39:58 IST" name="closeBrowser" finished-at="2023-11-30T17:39:58 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Basic.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
